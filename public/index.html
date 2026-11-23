@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HR Management System | CP363 Group 13</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <h1>HR Management System</h1>
+      <p>Employee Performance &amp; HR Management · CP363 Group 13</p>
+    </div>
+    <button id="reset-button" class="btn btn-outline-light" type="button">Reset database</button>
+  </header>
+
+  <!-- Filled by main.js: one tab per table, plus Queries -->
+  <nav id="tabs" class="tabs" aria-label="Sections"></nav>
+
+  <main>
+    <!-- Success / error banner (ui.js showMessage) -->
+    <div id="message" class="message" role="status" aria-live="polite" hidden></div>
+    <!-- The active tab is rendered here -->
+    <section id="view"></section>
+  </main>
+
+  <!-- Add / edit form (filled by crudView.js) -->
+  <dialog id="form-dialog"></dialog>
+
+  <!-- Confirmation for deletes and reset (ui.js confirmDialog) -->
+  <dialog id="confirm-dialog">
+    <form method="dialog" class="form">
+      <h2></h2>
+      <p class="confirm-text"></p>
+      <div class="form-actions">
+        <button class="btn" value="cancel">Cancel</button>
+        <button class="btn btn-danger" value="confirm"></button>
+      </div>
+    </form>
+  </dialog>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
