@@ -69,7 +69,7 @@ Then open the URL it prints, e.g. **http://localhost:3000**.
   table. Deleting a project also removes its assignments (`CASCADE`). Deleting a department
   manager leaves the department without a manager (`SET NULL`). Delete dialogs explain
   these effects before you confirm.
-- **Saved queries:** the Queries tab lists every file in `sql/queries/` (A3 Queries 1–5,
+- **Saved queries:** the Queries tab lists every file in `sql/queries/` (A3 Queries 1–10,
   A3 Views 2–3, A5 Q1–Q8, A5 View 3) and runs the chosen one exactly as written, showing
   the result with its column headers.
 - **Validation on both sides:** required fields, text lengths, numbers and ranges, real
